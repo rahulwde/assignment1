@@ -142,6 +142,7 @@ header .nav-bar .logo{
   -o-border-radius: 8px;
   height: 245px;
   width: 300px;
+  background-color: white;
 }
 .pillar-cards .card .card-img{
    width: 50px;
@@ -233,3 +234,50 @@ header .nav-bar .logo{
 }
 
 /***** End iunus *****/
+
+/***** table *****/ 
+.table{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.table .table-head{
+  padding: 10px;
+  border: 1px solid gray;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+
+
+}
+.table-body{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid var(--primary-color);
+  
+}
+.table-btn{
+  border-left: 2px solid var(--primary-color);
+  border-width: 100%;
+
+}
+.table-btn button{
+  background-color: var(--primary-color);
+  padding: 8px 15px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+  
+/***** End table *****/
