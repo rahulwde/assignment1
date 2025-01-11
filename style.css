@@ -411,4 +411,68 @@ header .nav-bar .logo{
 }
 
 /***** End donate *****/
+  /***** newsletter *****/ 
+  .newsletter{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 80px 265px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    
+}
+.news-heading{
+  margin-bottom: 10px;
+}
+.newsletter .news-input{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.news-input input{
+  width: 600px;
+  height: 55px;
+  border: none;
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+ padding-left: 20px;
+}
   
+.news-btn button{
+  border: none;
+  outline: none;
+  height: 55px;
+  width: 120px;
+  background-color: var(--btn-color);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 16px;
+  color: white;
+}
+   
+  /***** End newsletter *****/
+  footer{
+    
+  }
+  .footer-text{
+    text-align: center;
+    padding: 30px;
+    font-size: 32px
+  }
+  .margin{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid rgb(218, 206, 206);
+    border-bottom: none;
+    margin-bottom: 30px;
+  }
+  footer .social-icon{
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+  }
