@@ -282,3 +282,64 @@ header .nav-bar .logo{
 
   
 /***** End table *****/
+
+/***** recent *****/ 
+.recent-news .recent-text{
+  margin: 20px 0;
+}
+
+/***** End recent *****/
+
+/***** satelight *****/ 
+.satelight-section{
+  display: flex;
+  gap: 30px;
+  background-color: white;
+  padding: 40px 35px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  height: 400px;
+}
+.satelight-img img{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 400px;
+}
+.satelight-contents .content-img{
+  width: 100px;
+  margin-bottom: 8px;
+}
+.satelight-contents .content-title{
+  font-size: 32px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 8px;
+}
+.content-date{
+  margin: 8px;
+}
+.content-description{
+  margin: 8px;
+  margin-bottom: 30px;
+}
+.content-btn button{
+  background-color: var(--btn-color);
+  padding: 8px 15px;
+  border:none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+}
+.section-2, .section-3{
+  margin-top: 15px;
+}
+/***** End satelight *****/
